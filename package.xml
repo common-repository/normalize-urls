@@ -1,0 +1,23 @@
+<!--Package: Better HTTP Redirects -->
+<package>
+	<author>
+		<uri>http://hakre.wordpress.com/</uri>
+		<name>hakre</name>
+	</author>
+	<plugin>
+		<id>normalize-urls</id>
+		<name>Normalize URLs</name>		
+		<uri>http://hakre.wordpress.com/plugins/normalize-urls</uri>		
+		<version>1.1</version>
+		<description><short><![CDATA[Normalize URLs makes Wordpress to play more nicely regarding URLs in HTTP Requests.]]></short><![CDATA[Dual Mode Plugin, can be used as a standard Plugin or as a Must-Use Plugin.]]></description>
+		<file path="normalize-urls.php" title="Plugin File (Single File Plugin)" build="default" />
+	</plugin>
+	<external>
+		<file path="readme.txt" title="ignore, needed by wordpress.org/extend only" build="ignore" />
+		<link rel="homepage" title="Normalize URLs Homepage" href="http://hakre.wordpress.com/plugins/normalize-urls/" />
+		<link rel="homepage" title="Normalize URLs in the WordPress Repository" href="http://wordpress.org/extend/plugins/normalize-urls/" ></link>
+		<link rel="resource" title="Sourcecode (Plain)" href="http://plugins.svn.wordpress.org/normalize-urls/trunk/normalize-urls.php" ></link>
+		<link rel="resource" title="Sourcecode (Nice)" href="http://plugins.trac.wordpress.org/browser/normalize-urls/trunk/normalize-urls.php" />
+		<link rel="resource" title="Development Log" href="http://plugins.trac.wordpress.org/log/normalize-urls/" />
+	</external>
+</package>
